@@ -195,6 +195,36 @@ body {
   color: #666;
 }
 
-.sl-wrapper {
-  z-index: 1000;
+sl-wrapper {
+  z-index: 1055;
+}
+
+.sl-wrapper .sl-counter {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.sl-wrapper .sl-navigation button {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.sl-wrapper .sl-close {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.sl-wrapper .sl-image {
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 90vh;
+  max-width: 90vw;
+}
+
+.sl-wrapper .sl-image img {
+  max-height: 90vh !important;
+  max-width: 90vw !important;
+  height: auto !important;
+  width: auto !important;
 }
