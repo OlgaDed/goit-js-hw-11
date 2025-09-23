@@ -223,8 +223,8 @@ sl-wrapper {
 }
 
 .sl-wrapper .sl-image img {
-  max-height: 90vh !important;
-  max-width: 90vw !important;
-  height: auto !important;
-  width: auto !important;
+  max-height: 90vh;
+  max-width: 90vw;
+  height: auto;
+  width: auto;
 }
